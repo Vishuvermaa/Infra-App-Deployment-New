@@ -4,7 +4,7 @@
 
 
 
-replicaCount: <+pipeline.stages.Deploy.variables.replicas>
+replicaCount: <+pipeline.stages.deploy.variables.replicas>
 
 image:
   repository: <+artifact.image>
