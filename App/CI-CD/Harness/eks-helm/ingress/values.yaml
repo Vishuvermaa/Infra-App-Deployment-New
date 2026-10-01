@@ -3,7 +3,7 @@
 
 
 ingress:
-  certificateArn: "<+serviceVariables.certificateArn>"
+  #certificateArn: "<+serviceVariables.certificateArn>"
   securitygroup: "<+serviceVariables.ingress_securitygroup>"
   subnets:
     subnetA: "<+serviceVariables.subnetA>"
